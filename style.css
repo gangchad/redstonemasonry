@@ -33,7 +33,10 @@ body {
 }
 
 /* navigation layout */
- 
+ul {
+    list-style: none;
+}
+
  nav ul {
     list-style: none;
     padding: 0;
@@ -86,6 +89,7 @@ h3 {
 }
 
 .split-section {
+    list-style: none;
     display: flex;
     gap: 40px;
     align-items: center;
